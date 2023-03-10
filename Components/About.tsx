@@ -17,7 +17,7 @@ export default function About(){
             <div className="grid gap-6 lg:grid-cols-2">
                 {
                     services.map(service=>(
-                    <div className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
+                    <div key={`service-${service}`}  className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1">
                     <ServicesCard service={service} />
                     </div>
                     
