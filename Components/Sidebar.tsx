@@ -12,7 +12,8 @@ export default function Sidebar(){
     };
     return(
         <div className="dark:text-white">
-            <img src="/profile-pic.jpg" alt="profile picture" className="w-32 h-32 mx-auto rounded-full" />
+            <Image 
+            src="/profile-pic.jpg" alt="profile picture" width={100} height={100} className="mx-auto rounded-full " />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green ">saad </span>
                 waheed

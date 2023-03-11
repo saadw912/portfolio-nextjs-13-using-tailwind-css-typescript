@@ -3,7 +3,7 @@ import{BsWordpress} from "react-icons/bs"
 import{AiOutlineApi, AiOutlineAntDesign} from "react-icons/ai"
 import{MdDeveloperMode} from "react-icons/md"
 import{BsCircleFill} from "react-icons/bs"
-import { IService, Iskill } from "./type"
+import { Iproject, IService, Iskill } from "./type"
 
 export const services:IService[] =[
     {
@@ -94,5 +94,79 @@ export const tools:Iskill[]=[
         Icon:BsCircleFill,
         name:"Framer",
         level:"65%"
+    },
+]
+export const projects:Iproject[]=[
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Thesis Portal",
+        descripition:"New Design & Develope PIDE Thesis Portal",
+        image_path:"/pide-thesis.PNG",
+        deployed_url:"https://pide.org.pk/thesis",
+        github_url:"https://pide.org.pk/thesis",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
+    },
+    {
+        name:"PIDE Website",
+        descripition:"Revamp PIDE reshearch portal from strach",
+        image_path:"/pide.PNG",
+        deployed_url:"https://pide.org.pk/",
+        github_url:"https://pide.org.pk/",
+        category:["wordpress"],
+        key_techs:["wordpress","HTML","CSS","javaScript"],
     },
 ]

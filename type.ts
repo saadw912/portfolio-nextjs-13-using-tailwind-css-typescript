@@ -19,4 +19,4 @@ export interface Iproject{
     category:Category[];
     key_techs:string[];
 }
-export type Category="react"|"node"|"express"|"django"|"mongo";
+export type Category="react"|"next"|"wordpress"|"php"|"mongo";
